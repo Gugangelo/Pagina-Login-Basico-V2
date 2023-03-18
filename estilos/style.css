@@ -12,6 +12,9 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: aquamarine;
+    background: linear-gradient(to right, #6717cd, #296ff9);
+    /* background: linear-gradient(to bottom, #fccf31, #f55555); */
+    /* background: linear-gradient(to bottom, #00ff99d8, #00dd6fc8, #00ffc3, #11dd98); */
 }
 
 main {
@@ -32,6 +35,8 @@ section#login {
     border-radius: 24px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     overflow: hidden;
+
+    transition: width 0.2s, height 0.2s; /* Pequena animação para quando largura e altura mudarem ser mais "suave" */
 }
 
 div#imagem_de_fundo {
