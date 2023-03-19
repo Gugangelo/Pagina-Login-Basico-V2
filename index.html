@@ -19,19 +19,20 @@
             <div id="dados">
                 <h1>Login</h1>
                 <p>Seja bem vindo novamente, insira seus dados abaixo</p>
-                <form action="login.py" method="post"> <!--Arquivo fictício para onde os dados seria enviados-->
-                    <p>Digite seu email</p>
-                    <input type="text" placeholder="email@example.com">
-                    <p>Digite sua senha</p>
-                    <input type="text" placeholder="Digite sua senha">
+                <form action="login.py" method="post" autocomplete="on"> <!--Arquivo fictício para onde os dados seria enviados-->
+                    <div id="email_senha">
+                        <label for="ilogin">Email</label>
+                        <input type="email" name="login" id="ilogin" placeholder="email@example.com" autocomplete="email" required maxlength="40"><br>
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required minlength="8" maxlength="20"> <!-- O autocomplete tem que ser configurado assim para que o navegador reconheça com aquela função de guardar senha etc. -->
+                    </div>
+
+                    <input type="submit" value="Entrar">
+                    <a href="">Esqueci minha senha</a>
                 </form>
-                <a href="">Entrar</a><br>
-                <a href="">Esqueci minha senha</a>
             </div>
         </section>
 
-        <section id="botoes">
-        </section>
     </main>
 </body>
 

@@ -23,6 +23,11 @@
         float: left;
         width: 60%;
     }
+
+    div#dados > p {
+        font-size: 1em;
+        margin-bottom: 16px;
+    }
 }
 
 @media screen and (min-width: 992px) { /* Versão Desktop em diante*/
@@ -39,5 +44,10 @@
     section#login > div#dados {
         float: left;
         width: 50%;
-    }    
+    }
+
+    div#dados > p {
+        font-size: 1.1em;
+        margin-bottom: 16px;
+    }
 }

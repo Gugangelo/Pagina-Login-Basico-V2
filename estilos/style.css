@@ -13,8 +13,6 @@ body {
     height: 100vh;
     background-color: aquamarine;
     background: linear-gradient(to right, #6717cd, #296ff9);
-    /* background: linear-gradient(to bottom, #fccf31, #f55555); */
-    /* background: linear-gradient(to bottom, #00ff99d8, #00dd6fc8, #00ffc3, #11dd98); */
 }
 
 main {
@@ -49,6 +47,17 @@ div#imagem_de_fundo {
 div#dados {
     display: block;
     padding: 16px;
+}
+
+div#dados > h1 {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 1.5em;
+}
+
+div#dados > p {
+    font-size: 0.9em;
+    margin-bottom: 16px;
 }
 
 section#botoes > a {
