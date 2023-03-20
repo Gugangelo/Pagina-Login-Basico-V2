@@ -22,13 +22,16 @@
                 <form action="login.py" method="post" autocomplete="on"> <!--Arquivo fictício para onde os dados seria enviados-->
                     <div id="email_senha">
                         <label for="ilogin">Email</label>
-                        <input type="email" name="login" id="ilogin" placeholder="email@example.com" autocomplete="email" required maxlength="40"><br>
+                        <input type="email" name="login" id="ilogin" placeholder="email@example.com" autocomplete="email" required maxlength="40">
+                    </div>
+                    <div id="email_senha">
                         <label for="isenha">Senha</label>
                         <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required minlength="8" maxlength="20"> <!-- O autocomplete tem que ser configurado assim para que o navegador reconheça com aquela função de guardar senha etc. -->
                     </div>
 
                     <input type="submit" value="Entrar">
-                    <a href="">Esqueci minha senha</a>
+                    <a href="">Esqueci minha senha.</a>
+                    <a href="">Não tem uma conta? Criar conta.</a>
                 </form>
             </div>
         </section>
